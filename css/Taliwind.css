@@ -1,0 +1,34 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+html{
+    @apply scroll-smooth 
+}
+
+.btn {
+ @apply bg-color-secondary px-9 py-3 rounded-md capitalize font-bold hover:opacity-80 ease-in duration-200;
+}
+
+.title {
+    @apply text-3xl md:text-4xl font-bold leading-snug mb-4;
+}
+
+.blob1{
+    @apply w-80 h-80 bg-color-blob absolute  top-0 -left-5 -z-10 blur-2xl opacity-30 rounded-full overflow-hidden;
+}
+.blob2{
+   @apply w-80 h-80 bg-color-secondary absolute  bottom-10 right-0 -z-10 blur-2xl opacity-30 rounded-full overflow-hidden;
+}
+
+.userPic.activPic{
+    border: 2px solid #ff7d3b;
+}
+
+.use-text{
+    display: none;
+}
+.use-text.ative-text{
+    display: block;
+}
